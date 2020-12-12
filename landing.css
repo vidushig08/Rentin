@@ -1,0 +1,12 @@
+html{
+    background-color: #F3EAC2;
+}
+.about{
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+.about img{
+    width: 630px;
+    height: 450px;
+}

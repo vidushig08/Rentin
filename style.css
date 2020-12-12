@@ -1,0 +1,35 @@
+html{
+    background-color: #303960;
+}
+.first{
+    align-items: center;
+    text-align: center;
+}
+.first img{
+    width: 588px;
+    height: 280px;
+}
+.second{
+    align-items: center;
+    text-align: center;
+    margin-top: -180px;
+}
+.second img{
+    width: 370px;
+    height: 370px;
+    margin-top: -10px;
+}
+.third button{
+    background-color: #EA9A96;
+    border: 2px solid #F3EAC2;
+    box-sizing: border-box;
+    border-radius: 80px;
+    padding: 1%;
+    margin-left: 20%;
+    align-items: center;
+    text-align: center;
+}
+.third button img{
+    align-items: center;
+    text-align: center;
+}
