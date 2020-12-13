@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Linking CSS-->
+    <link type="text/css" rel="stylesheet" href="navbar.css" />
+    <link type="text/css" rel="stylesheet" href="landing.css" />
+    <link type="text/css" rel="stylesheet" href="education.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Title and Logo-->
+    <title>Rentin'</title>
+    <link rel="icon" type="image/png" href="assets/first-page/logo.svg">
+</head>
+
+<body>
+    <div id="content">
+		<!--NAVBAR Starts-->
+		<nav class="nav-active" id="navbar">
+			<!-- Logo in Navbar -->
+				<div class="logo">
+					<a href="index.html" style="text-decoration: none; color: #F3EAC2">
+					    <h4><img src="assets/navbar/rupee.png" class="rupee-logo">entin'</h4>
+					</a>
+                </div>
+            <!--Search Tab in Navbar-->
+                <form autocomplete="off" onsubmit="return getCity(event);">
+                    <input class="search-tab" placeholder="Search ..." type="text" id="">
+                </form>
+			<!-- Nav Links -->
+			<ul class="navlinks">
+				<li>
+					<a href="index.html" class="home nav-link nav-link-grow-up" >Home</a>
+				</li>
+				<li>
+					<a href="categories.html" class="categories nav-link nav-link-grow-up" id="active">Categories</a>
+				</li>
+				<li>
+					<a href="profile.html" class="myprofile nav-link nav-link-grow-up"><img class="user" src="assets/navbar/profile.svg"> My Profile</a>
+                </li>
+                
+                <!--Add Buttons-->
+                <a><button class="rent-sell">+ RENT/SELL </button></a> 
+			</ul>
+		</nav>
+        <!--NAVBAR Ends-->
+
+        <!--Enter Content Here-->
+        <div class="education-page">
+            <img class="line1 e1" src="assets/categories-page/blueline.png">
+            <h2 class="heading">Entertainment</h2>
+            <img class="line2 e2" src="assets/categories-page/blueline.png">
+            <img class="filter" src="assets/categories-page/filter-icon.png">
+
+            <table>
+                <tr>
+                <div class="obj1">
+                    <td> <div class="grey" style="width: 160px; height: 200px; background-color: #C4C4C4;"></div> </td>
+                    <td class="info">
+                        <br>
+                        <h3>Boombox</h3>
+                        <p>On rent by - Avantika Menon</p>
+                        <p>Charges - Rs 200 per week</p>
+                        <p>Status - Available</p>
+                        <br>
+                        <button class="buy">Rent</button>
+                    </td>
+                </div>
+                </tr>
+            </table>
+
+            <br>
+
+            <table>
+                <tr>
+                <div class="obj1">
+                    <td> <div class="grey" style="width: 160px; height: 200px; background-color: #C4C4C4;"></div> </td>
+                    <td class="info">
+                        <br>
+                        <h3>UNO Cards</h3>
+                        <p>On rent by - Hritika Rathi</p>
+                        <p>Charges - Rs 750</p>
+                        <p>Status - Available</p>
+                        <br>
+                        <button class="buy">Buy</button>
+                    </td>
+                </div>
+                </tr>
+            </table>
+        
+        <!--Content Ends Here-->

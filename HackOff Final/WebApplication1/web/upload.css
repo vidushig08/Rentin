@@ -1,0 +1,243 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.logo {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+img.rupee-logo {
+	width: 20px;
+	height: 20px;
+	margin-bottom: -0.2vh;
+}
+.search-tab{
+    position: relative;
+	margin-left: -60px;
+	width:200%; 
+	height: 30px; 
+	padding-left: 10px; 
+	border-radius: 15px; 
+	border: none;
+}
+.user{
+	height: 20px;
+	width: 20px;
+	padding-top: 2px;
+}
+.rent-sell{
+	height: 40px;
+    width: 165px;
+	margin-right: -60px;
+	background: #F5B461;
+	border: 7px solid #F3EAC2;
+	box-sizing: border-box;
+	border-radius: 90px;
+	color: #303960;
+	font-size: 22px;
+	font-weight:bolder;
+	padding-bottom: 30px;
+}
+.rent{
+    height: 40px;
+    width: 80px;
+	margin-right: -60px;
+	padding-top: 5px;
+}
+.sell{
+    height: 40px;
+    width: 80px;
+	margin-right: -130px;
+	padding-top: 5px;
+}
+
+.home, .about, .categories, .myprofile{
+	margin-bottom: 20px;
+}
+/* Navbar starts */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+	background-color:#303960;
+	color:#F3EAC2;
+
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+}
+
+/* Nav Links */
+.navlinks {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	color: #F3EAC2;
+}
+.navlinks li {
+	list-style: none;
+	position: relative;
+	align-items: center;
+	margin-top: 10px;
+}
+.navlinks a {
+	font-size: 18px;
+	color: #F3EAC2;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	opacity: 0.85;
+}
+/* Active Nav Link */
+#active {
+	opacity: 1;
+	font-weight: 525;
+}
+#active::before {
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: #F3EAC2;
+}
+/* Nav Link Animation */
+.nav-link:hover {
+	opacity: 1;
+}
+
+.nav-link::before {
+	transition: 250ms;
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: #F3EAC2;
+}
+
+.nav-link-grow-up::before {
+	height: 0%;
+	width: 100%;
+	bottom: -9%;
+}
+
+.nav-link-grow-up:hover::before {
+	height: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+	.navlinks {
+		display: flex;
+		justify-content: space-around;
+		width: 70%;
+		color: #F3EAC2;
+	}
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Upload';
+    display: inline-block;
+    background: #303960;
+    border: 1px solid #F5B461;
+    border-radius: 60px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    color: #F3EAC2;
+  }
+  .custom-file-input:hover::before {
+    background: #F5B461;
+    color:#303960
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  .brnn
+{
+	width: 120px;
+	height: 40px;
+	background: #303960;
+    border-radius: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #F3EAC2;
+    border:none;
+
+}
+.bnn:hover
+{
+    background: #F5B461;
+    color:  #303960;
+
+
+}
+.name
+{
+height: 35px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #303960;
+
+}
+.namebox
+{
+	width: 300px;
+	height: 40px;
+	font-size:20px;
+	border: 2px solid #303960;
+	text-overflow:ellipsis;
+	background-color: #F3EAC2;
+	padding-bottom: 5px;
+}
+ul {
+    text-align:center;
+    position:relative;
+    display:inline-block;
+  }
+  li {
+    list-style:none;
+    display:inline-block;
+    margin-right:35px;
+  }
+  .link
+  {
+    height: 35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #303960;
+    padding-bottom: 10px;
+    cursor:pointer;
+  }
+  .link-active
+  {
+      border-bottom:solid 2px  #F5B461 ;
+  }
+  .lil
+  {
+    height: 35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #303960;
+    padding-bottom: 10px;
+    cursor:pointer;
+  }
+  .lil-active
+  {
+      border-bottom:solid 2px  #F5B461 ;
+  }

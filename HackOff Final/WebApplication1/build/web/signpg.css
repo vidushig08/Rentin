@@ -1,0 +1,57 @@
+body
+{
+	background-color:#F3EAC2;
+}
+.sign
+{
+	width: 400px;
+	height: 80px;
+}
+.name
+{
+height: 50px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 72px;
+color: #303960;
+padding-bottom: 10px;
+}
+.namebox
+{
+	width: 300px;
+	height: 40px;
+	font-size:20px;
+	border: 2px solid #303960;
+	text-overflow:ellipsis;
+	background-color: #F3EAC2;
+}
+.boxy
+{
+    border: 2px solid #303960;
+    background-color: #F3EAC2;
+    font-size:20px;
+}
+.btnn
+{
+    width: 120px;
+    height: 50px;
+    background: #303960;
+    border-radius: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #F3EAC2;
+    border:none;
+
+}
+.btnn:hover
+{
+    background: #F5B461;
+    color:  #303960;
+
+
+}

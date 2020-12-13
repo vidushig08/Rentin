@@ -1,0 +1,43 @@
+body
+{
+	background-color:#F3EAC2;
+}
+.tcc
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #303960;
+    padding-top: 40px;
+}
+.boxy
+{
+    border: 2px solid #303960;
+    background-color: #F3EAC2;
+    font-size:20px;
+}
+.btnn
+{
+    width: 120px;
+    height: 50px;
+    background: #303960;
+    border-radius: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #F3EAC2;
+    border:none;
+
+}
+.btnn:hover
+{
+    background: #F5B461;
+    color:  #303960;
+
+
+}

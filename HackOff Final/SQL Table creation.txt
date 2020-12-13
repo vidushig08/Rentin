@@ -1,0 +1,14 @@
+drop table hacklogin;
+create table hacklogin (name varchar(50), regno varchar(50), password varchar(50), email varchar(100), phone varchar(20), address varchar (100));
+alter table hacklogin add primary key (regno);
+alter table hacklogin modify name varchar (50) not null;
+alter table hacklogin modify password varchar (50) not null;
+alter table hacklogin modify email varchar (100) not null;
+alter table hacklogin modify phone varchar (20) not null;
+alter table hacklogin modify address varchar (100) not null;
+column name format a15;
+column regno format a15;
+column password format a15;
+column email format a15;
+column phone format a15;
+column address format a30;
