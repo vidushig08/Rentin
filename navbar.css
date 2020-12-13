@@ -28,6 +28,19 @@ img.rupee-logo {
 	width: 20px;
 	padding-top: 2px;
 }
+.rent-sell{
+	height: 40px;
+    width: 165px;
+	margin-right: -60px;
+	background: #F5B461;
+	border: 7px solid #F3EAC2;
+	box-sizing: border-box;
+	border-radius: 90px;
+	color: #303960;
+	font-size: 22px;
+	font-weight:bolder;
+	padding-bottom: 30px;
+}
 .rent{
     height: 40px;
     width: 80px;
@@ -52,6 +65,11 @@ nav {
 	height: 10vh;
 	background-color:#303960;
 	color:#F3EAC2;
+
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
 }
 
 /* Nav Links */
